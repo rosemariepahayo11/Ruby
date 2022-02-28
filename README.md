@@ -23,7 +23,7 @@ Additionally, [RubyTogether](https://rubytogether.org) sponsors individuals to w
 
 [Learn more about our sponsors and how they work together.](https://rubygems.org/pages/sponsors)
 
-## Links
+# Links
 
 * [Slack][]: #rubygems-org
 * [RFCs](https://github.com/rubygems/rfcs)
@@ -55,21 +55,66 @@ Also please take note of our [Code of Conduct](https://github.com/rubygems/rubyg
 
 If you have any trouble or questions getting set up please create an issue on this repository and we'll be happy to help!
 
-## Organization
+# Organization
 
 RubyGems.org consists of a few major parts:
 
 * Rails app: To manage users and allow others to view gems, etc.
 * Gem processor: Handles incoming gems and storing them in Amazon S3 (production) or
   on the filesystem in `server/` (development).
+# RubyGems
+Homepage:rubygems.org
 
-## License
+# Announcements:
+https://blog.rubygems.org
 
-RubyGems.org uses the MIT license. Please check the [LICENSE][] file for more details.
+# Documentation:
+https://guides.rubygems.org
 
-[license]: https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE
+# Support:
+https://help.rubygems.org
 
+# Source:
+https://github.com/rubygems/rubygems
 
+# Bugtracker:
+https://github.com/rubygems/rubygems/issues
+
+# DESCRIPTION
+RubyGems is a package management framework for Ruby.
+
+This gem is an update for the RubyGems software. You must have an installation of RubyGems before this update can be applied.
+
+See Gem for information on RubyGems (or `ri Gem`)
+
+To upgrade to the latest RubyGems, run:
+
+$ gem update --system  # you might need to be an administrator or root
+See UPGRADING.rdoc for more details and alternative instructions.
+
+If you don't have RubyGems installed, you can still do it manually:
+
+# Download 
+from: rubygems.org/pages/download
+
+Unpack into a directory and cd there
+
+# Install 
+with: ruby setup.rb # you may need admin/root privilege
+
+For more details and other options, see:
+ruby setup.rb --help
+
+# GETTING HELP
+
+Support Requests
+Are you unsure of how to use RubyGems? Do you think you've found a bug and you're not sure? If that is the case, the best place for you is to file a support request at help.rubygems.org.
+
+Filing Tickets
+Got a bug and you're not sure? You're sure you have a bug, but don't know what to do next? In any case, let us know about it! The best place for letting the RubyGems team know about bugs or problems you're having is on the RubyGems issues page at GitHub.
+
+Bundler Compatibility
+See bundler.io/compatibility for known issues.
 
 
 
